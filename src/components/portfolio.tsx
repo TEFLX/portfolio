@@ -425,7 +425,7 @@ function ProjectCard({ p, featured }: { p: typeof projects[number]; featured?: b
 /* ---------------- EXPERIENCE TIMELINE ---------------- */
 function Timeline() {
   const ref = useRef<HTMLDivElement>(null);
-
+  
   return (
     <div ref={ref} className="relative">
       <div className="space-y-12">
